@@ -1,0 +1,23 @@
+/* I pick the colors for this assignment from the adobe kuler website */
+
+body{
+	background-color: white;
+	color: #000000;
+	padding:30px;
+	}
+	
+h1,h2,h3{
+	background-color: rgb(34,204,37);
+	background-color: hsla(0,50%,25%,0.45);
+	color:white;
+	padding:inherit;
+		}
+/* I found that even thou I pick my colors from the kuler site, playing around with hsla, rgba, opacity gave the colors i pick a different look*/
+p{ 
+	color: rgba(25,0,0,0.5);
+	padding:10px;
+	}
+ol{
+	color: #5e22cc;
+	opacity: 0.90;
+	}

@@ -1,0 +1,52 @@
+/* I pick the colors for this assignment from the adobe kuler website */
+
+body{
+	background-color: white;
+	color: #000000;
+	padding:30px;
+	}
+	
+h1,h3,h4{
+	background-color: rgb(34,204,37);
+	background-color: hsla(0,50%,25%,0.45);
+	color:white;
+	padding:inherit;
+	font:bold normal normal normal/2 arial;
+		}
+	h1{text-shadow: 2px 2px 3px #333333;
+		font-size:300%;
+		}
+	h2{font:bold normal normal normal/2 arial;
+		letter-spacing:0.3em;
+		text-transform:uppercase;
+		font-size: 125%;
+		}
+/* I found that even thou I pick my colors from the kuler site, playing around with hsla, rgba, opacity gave the colors i pick a different look*/
+p{ 
+	font-family: 'Architects Daughter', cursive;
+	color: rgba(25,0,0,0.5);
+	padding:10px;
+	text-align:left;
+	}
+.credits{
+		font-style:italic;
+		text-align:right;
+		}
+ol{
+	color: #5e22cc;
+	opacity: 0.90;
+	font-style:italic;
+	}
+a:link{
+		color:darkcyan;
+		text-decoration: none;
+		}
+a:visited{
+		color: green;
+		}
+a:hover{
+		text-decoration: underline;
+	}
+a:active{
+		color: cyan;
+		}
