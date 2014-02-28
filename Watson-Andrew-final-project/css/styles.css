@@ -1,0 +1,137 @@
+body{
+	font-family: 'Gafata', sans-serif;
+	background: #66cccc url("http://pixabay.com/static/uploads/photo/2013/07/13/11/44/kayak-158581_640.png?i") no-repeat right bottom fixed;
+	color: #000000;
+	padding:20px;
+	}
+	
+#page{
+	background-color:rgb(255,255,255);
+	opacity:0.85;
+	width:960px;
+	border:1px solid #838B8B;
+	border-radius: 0px 15px;
+	padding: 10px;
+	margin:0px auto;
+	}
+	
+#navi{
+	display:inline;
+	}
+	
+h1,h2,h3{
+	border-top: 2px double #000;
+	border-bottom: 1px solid #000;
+	padding:10px;
+	margin: 20px;
+	box-shadow: 5px 5px 5px #777777;
+	text-shadow:2px 2px 7px #111111;
+	background: #ffffff; /* Old browsers */
+	background: linear-gradient(135deg,  #ffffff 17%,#7db9e8 100%); /* W3C */;
+	
+	 clear:both;
+	}
+	
+#column1of6{
+	width:950px;
+	height:100px;
+	margin:10px auto;
+	padding:5px;
+	border: 1px solid #cccccc;
+	}
+#column2of6, #column3of6{
+	float:left;
+	width:450px;
+	height:200px;
+	margin:0px;
+	padding:5px;
+	}
+
+ul{
+	font-size:22px;
+	font-weight:bold;
+	font-style:oblique;
+	text-align:center;
+	}
+
+ol{
+	list-style-type:decimal-leading-zero;
+	}
+	
+#column4of6,#column5of6{
+	width:915px;
+	margin:20px;
+	background-color:white;
+	}
+
+#images{
+	float:right;
+	width:960px;
+	border: 1px solid #000;
+	padding:0px;
+	margin: 10px auto;
+	}
+
+#section{
+		margin:auto;
+		padding: 10px;
+	}
+	
+.credits{
+		font-style:italic;
+		text-align:right;
+		}
+a:link{
+		color:#191970;
+		text-decoration: none;
+		}
+a:visited{
+		color: green;
+		}
+a:hover{
+		text-decoration: underline;
+	}
+a:active{
+		color: cyan;
+		}
+#clear{
+	font-size: 14px;
+	text-align:center;
+	clear:both;
+	}
+.contact{
+	float:left;
+	width:50%;
+	padding:2px;
+	margin:0px 10px;
+	font-size:16px;
+	color: blue;
+	border:1px double #fff;
+	text-align: center;
+	}
+
+#formandtable{
+	float:left;
+	width:950px;
+	margin:10px;
+	}
+	
+#rec{
+	float:left;
+	width:45%;
+	padding:1px;
+	text-align:left;
+	border: 1px solid #000000;
+	background-color:#cccccc;
+	border-spacing:0px;
+	}
+th{
+	
+	}
+td{
+	border: 1px solid #000000;
+	}
+#footer{
+	text-align:center;
+	color:white;
+	}
