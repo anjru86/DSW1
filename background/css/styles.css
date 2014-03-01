@@ -1,0 +1,113 @@
+body{
+	font-family: 'Architects Daughter', cursive;
+	background-color: #ffffff;
+	background-image:url ("images/canvas.gif");
+	background-repeat:repeat-y;
+	color: #000000;
+	padding:30px;
+	}
+	
+#page{
+	width:960px;
+	border: 4px double  #000;
+	border-radius:20px;
+	padding:20px;
+	margin: 10px auto;
+		}
+	
+h1{
+	border: 1px solid #333;
+	box-shadow: 3px 3px #777;
+	background-color: rgb(34,204,37);
+	background-color: hsla(0,50%,25%,0.45);
+	text-shadow: 2px 2px 3px #665544;
+	color:white;
+	padding:inherit;
+	font-size:76px;
+	text-align:center;
+		}
+h2{
+	width:inherit;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	margin: 0px auto;
+	text-align:center;}
+		
+#navigation{
+	font-size: 1.125em;
+	width:625px;
+	border-top:2px solid #000;
+	border-bottom: 1px solid  #000;
+	padding:15px;
+	margin: 0px auto;
+	}
+	
+ul {
+	list-style-type: none;
+	text-align:center;
+	}
+li{
+	display:inline;
+	padding: 5px;
+	}
+#timeline{
+	border: 1px double #000;
+	}
+#column1of3{
+	float:left;
+	width:580px;
+	margin:20px;
+	}
+	
+#column2of3{
+	float:left;
+	width:280px;
+	margin:20px;
+	}	
+	
+#column3of3{
+	float:left;
+	width:90%;
+	margin:10px;
+	clear: both;
+	padding: 20px;
+	background: linear-gradient(45deg,  #ffffff 0%,#7db9e8 100%);
+
+	
+	}
+p{ 
+	color: #000;
+	padding:10px;
+	width:inherit;
+	margin: 20px auto;
+	}
+#timeline{
+	color: blue;
+	margin: 15px auto;
+	border-bottom: 1px solid #333;
+	}
+.credits{
+		font-style:italic;
+		text-align:right;
+		}
+ol{	
+	color: #5e22cc;
+	opacity: 0.90;
+	font-style:italic;
+	}
+a:link{
+		color:darkcyan;
+		text-decoration: none;
+		}
+a:visited{
+		color: green;
+		}
+a:hover{
+		text-decoration: underline;
+	}
+a:active{
+		color: cyan;
+		}
+#clear{
+	clear:both;
+	}
